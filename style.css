@@ -1,0 +1,64 @@
+
+
+img{
+    width: 80px;
+    height:80px;
+    margin-left: 20px;
+    margin: 0%;
+    padding: 0%;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    margin-left: 250px;
+}
+nav{
+    display:flex;
+    text-decoration: bold;
+    
+}
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    margin-left: 300px;
+}
+#hero{
+max-width: 100%;
+max-width: auto;
+width: auto;
+height: auto;
+object-fit:contain;
+margin: 0%;
+padding: 0%;
+}
+#card{
+    background-color: gray;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    padding:10px;
+    margin:20px;
+    text-align: justify;
+}
+#heading{
+    padding:10px;
+    margin:10px;
+}
+#services{
+padding:0%;
+margin:0%;
+}
+#services1{
+    display: flex;
+    flex-direction:column-reverse;
+}
+
