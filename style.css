@@ -1,64 +1,150 @@
-
-
-img{
-    width: 80px;
-    height:80px;
-    margin-left: 20px;
-    margin: 0%;
-    padding: 0%;
-
+body {
+  padding: 0;
+  margin: 0;
+  background-color: gainsboro;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    list-style: none;
-    align-items: center;
-    margin-left: 250px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 0;
 }
-nav{
-    display:flex;
-    text-decoration: bold;
-    
+nav img {
+  margin-left: 10px;
+  padding-left: 0;
 }
-div{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    list-style: none;
-    align-items: center;
-    margin-left: 300px;
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
 }
-#hero{
-max-width: 100%;
-max-width: auto;
-width: auto;
-height: auto;
-object-fit:contain;
-margin: 0%;
-padding: 0%;
+ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
-#card{
-    background-color: gray;
-    display: flex;
-    margin: 0%;
-    padding: 0%;
+ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
-p{
-    padding:10px;
-    margin:20px;
-    text-align: justify;
+a {
+  text-decoration: transparent;
+  color: black;
 }
-#heading{
-    padding:10px;
-    margin:10px;
+.icons {
+  margin-right: 60px;
 }
-#services{
-padding:0%;
-margin:0%;
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
 }
-#services1{
-    display: flex;
-    flex-direction:column-reverse;
+button i {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
-
+.herosection {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-image: url("assets/heroimg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.small-button {
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+  padding: 20px 90px;
+  background-image: repeating-linear-gradient(
+    to right,
+    black,
+    rgb(153, 151, 151)
+  );
+  color: white;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 400;
+  font-weight: bold;
+}
+.paragraphs {
+  padding: 30px;
+  padding-top: 40px;
+  background-color: grey;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  text-align: center;
+}
+.child-paragraphs {
+  width: 350px;
+}
+.content {
+  background-color: grey;
+  height: 50px;
+}
+.heading {
+  font-family: sans-serif;
+  padding-left: 30px;
+  max-height: fit-content;
+  height: 600px;
+  padding-top: 30px;
+}
+.parent-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.child-content {
+  width: 300px;
+  justify-content: center;
+  margin-right: 30px;
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+}
+.btn3 {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  text-align: right;
+}
+.b {
+  text-align: right;
+}
+.room {
+  text-align: left;
+}
+.dine {
+  text-align: center;
+}
+.pool {
+  text-align: right;
+}
+.p3 {
+  text-align: right;
+}
+.p2 {
+  text-align: center;
+}
+.p1 {
+  text-align: left;
+}
